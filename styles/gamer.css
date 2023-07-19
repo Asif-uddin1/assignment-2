@@ -1,0 +1,126 @@
+/* shared styles */
+body {
+    font-family: 'Open Sans', 'Work Sans';
+}
+.text{
+
+}
+/* Header body styles */
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+
+
+}
+
+.logo-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav img {
+    width: 56.041px;
+    height: 20px;
+
+}
+
+span {
+    color: rgb(255, 4, 192);
+}
+
+.name {
+    color: #0B0223;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.ul1 {
+    color: #3C354F;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.btn-nav {
+    /* border-radius: 8px; */
+    /* background: #0b02231a; */
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    color: #3C354F;
+    font-size: 12px;
+    font-weight: 500;
+    gap: 8px;
+    height: 30px;
+    width: 180px;
+}
+
+.btn-img {
+    width: 20px;
+    height: 20px;
+
+}
+
+/* nav end */
+
+/* banner */
+
+.banner-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: auto;   
+    background-image: url(../images/bgimg.png);
+    background-size: 50% 150%;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.bconcept {
+
+    width: 70%;
+    height: 100%;
+    
+
+}
+
+.btext {
+    padding: 0 160px;
+}
+
+.bimg{
+    width: 70%;
+    height: 250%;
+    align-items: bottom right;
+}
+
+
+/* Main body styles */
+
+
+
+/* Footer body styles */
