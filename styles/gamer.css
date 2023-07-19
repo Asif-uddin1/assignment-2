@@ -2,9 +2,13 @@
 body {
     font-family: 'Open Sans', 'Work Sans';
 }
-.text{
 
+.text {
+    color: #534C64;
+    font-size: 13px;
+    font-weight: 500;
 }
+
 /* Header body styles */
 
 /* nav */
@@ -89,38 +93,134 @@ a {
 /* banner */
 
 .banner-content {
+
+    padding: auto;
+    background-image: url(../images/bgimg.png);
+    background-size: 50% 200%;
+    background-repeat: no-repeat;
+}
+
+.banner-margin {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* border: 2px solid black; */
-    padding: auto;   
-    background-image: url(../images/bgimg.png);
-    background-size: 50% 150%;
-    background-repeat: no-repeat;
-    margin-bottom: 0;
+    margin-left: 50px;
+    margin-right: 150px;
+    /* border: 2px solid #0B0223; */
 }
 
 .bconcept {
 
-    width: 70%;
+    width: 80%;
     height: 100%;
-    
+
 
 }
 
 .btext {
-    padding: 0 160px;
+    padding: 0 170px;
+    text-align: left;
 }
 
-.bimg{
-    width: 70%;
-    height: 250%;
-    align-items: bottom right;
+.bimg {
+    width: 100%;
+    height: 400%;
+    align-items: bottom;
 }
 
+.btitle {
+    color: #0B0223;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.goat {
+    font-size: 50px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0% auto;
+
+}
+
+.pu {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.pl {
+    width: 12px;
+    height: 12px;
+}
+
+.banner-btn {
+    display: flex;
+    margin: 10px 150px;
+    /* border: 2px solid blue; */
+    justify-content: left;
+    gap: 10px;
+
+}
+
+.btn1 {
+    padding: 5px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F948B2;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.btn2 {
+    padding: 5px 25px;
+    border-radius: 10px;
+    border: none;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+
+}
 
 /* Main body styles */
+.main {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+   
+
+}
+
+.main-img-con{
+    margin: 0 auto;
+}
+
+.mimg1 {
+    /* border: 1px solid #0B0223;  */
+    width: 200%;
+    height: auto;
+    margin-left: 150px;
+}
+
+.main-text {
+    text-align: right;
+    /* border: 1px solid #0B0223; */
+    margin-left: 500px;
+    margin-right: 150px;
+
+    
+}
+
+.mtitle1 {
+    font-size: 30px;
+    font-weight: 700;
 
 
-
-/* Footer body styles */
+    /* Footer body styles */
