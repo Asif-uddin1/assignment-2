@@ -376,41 +376,123 @@ img.pm {
 }
 
 /* play section style  */
-.play{
+.play {
+    margin-top: 50px;
     display: flex;
-    justify-content: space-evenly;
-
-    hieght 700px
-    width: 600px;
-    /* border: 1px solid salmon; */
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid salmon;
+}
+.ply-div{
+    border: 1px solid rgb(0, 47, 255);
+    display: flex;
+    margin-left: 350px;
 }
 .play-text {
+    border: 1px solid red;
     display: block;
     align-items: center;
     text-align: right;
-    justify-content:center ;
-    margin-top: 200px;
-    padding-top: 100px;
+    justify-content: center;
+    margin: 0px auto;
+    padding-top: 0px;
     width: 200px;
     font-weight: 700;
     font-size: 20px;
 
 }
-.play-img{
+
+/*  .play-img{
     background-image: url(../images/Rectangle\ 55.png);
     background-repeat: no-repeat;
     background-position: bottom right  ;
     background-size: 500px;
     width: 600px;
     height: 700px;
-}
-.img-play{
+} 
+
+.play-img {
+    display: flex;
+    align-items: center;
     width: 200px;
     height: auto;
     position: relative;
-    transform: translateX(-50px) translateY(500px)
+    transform: translateX(-50px) translateY(0px);
+    margin: 0% 500 0 0;
+    border: 1px solid #111111;
 }
 
+.play-img img {
+    width: 300px;
+    height: 400px;
+
+}
+
+.img-play {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+
+    transform: translateX(-500px) translateY(300px);
+}
+.img-play img{
+    width: 300px;
+    height: 400px;
+} */
+
+.play-img{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.play-img> img{
+    /* border: 1px solid rgb(255, 2, 2); */
+    display: flex;
+    height: 400px;
+    width: 400px;
+}
+
+.img-play{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    transform: translateX(-500px) translateY(180px);
+
+}
+
+/* play2 section */
+.play2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid salmon;
+}
+.ply-div{
+    border: 1px solid rgb(0, 47, 255);
+    display: flex;
+    margin-left: 350px;
+}
+.play-text {
+    border: 1px solid red;
+    display: block;
+    align-items: center;
+    text-align: right;
+    justify-content: center;
+    margin: 0px auto;
+    padding-top: 0px;
+    width: 200px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
 
 
 /* Footer body styles */
